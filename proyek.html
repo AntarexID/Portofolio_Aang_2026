@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyek Saya - Aang Nuh Abdullah</title>
+    <link rel="stylesheet" href="beranda.css"> <link rel="stylesheet" href="proyek.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <span>Portofolio</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Beranda</a></li>
+                <li><a href="tentang.html">Tentang</a></li>
+                <li><a href="proyek.html" class="active">Proyek</a></li>
+                <li><a href="kontak.html">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container-proyek">
+        <h1 class="page-title">Proyek-Proyek Saya</h1>
+
+        <div class="filter-container">
+            <button class="filter-btn active" data-filter="semua">Semua</button>
+            <button class="filter-btn" data-filter="Sistem Pakar">Sistem Pakar</button>
+            <button class="filter-btn" data-filter="web">Pengembangan Web</button>
+            <button class="filter-btn" data-filter="e-commerce">e-commerce</button>
+            <button class="filter-btn" data-filter="lainnya">Lainnya</button>
+        </div>
+
+        <div class="project-grid">
+            
+            <div class="project-card" data-category="Sistem Pakar">
+                <div class="card-image">
+                    <img src="pic/sistempakar.jpg" alt="Sistem Pakar">
+                    <span class="category-tag">Sistem Pakar</span>
+                    <div class="image-overlay">
+                        <h3>Desain website Sistem Pakar</h3>
+                    </div>
+                </div>
+                <div class="card-content">
+                    <p>Dirancang untuk memberikan rekomendasi perawatan kulit berdasarkan jenis dan permasalahan kuli. Sistem ini membantu pengguna menentukan perawatan yang tepat.</p>
+                    <a href="https://antarexid.github.io/sistempakar-skincare/" target="_blank" class="view-link">Lihat Detail →</a>
+                </div>
+            </div>
+
+            <div class="project-card" data-category="web">
+                <div class="card-image">
+                    <img src="pic/homecare.jpg" alt="Web HomeCare">
+                    <span class="category-tag">Web HomeCare</span>
+                    <div class="image-overlay">
+                        <h3>Platform E-Commerce Kustom</h3>
+                    </div>
+                </div>
+                <div class="card-content">
+                    <p>Website Homecare Kazoku adalah platform layanan kesehatan berbasis web yang menyediakan informasi dan pemesanan layanan perawatan kesehatan di rumah secara mudah, cepat, dan terpercaya.</p>
+                    <a href="https://antarexid.github.io/kazoku-web/" target="_blank" class="view-link">Lihat Detail →</a>
+                </div>
+            </div>
+
+            <div class="project-card" data-category="e-commerce">
+                <div class="card-image">
+                    <img src="pic/antarex.jpg" alt="web prototype e-commerce antarex id">
+                    <span class="category-tag">e-commerce</span>
+                    <div class="image-overlay">
+                        <h3>web prototype e-commerce antarex id</h3>
+                    </div>
+                </div>
+                <div class="card-content">
+                    <p>Prototype web olshop Antarex ID merupakan rancangan aplikasi e-commerce berbasis web yang menampilkan fitur katalog produk, detail produk, dan alur pemesanan sebagai gambaran sistem penjualan online yang sederhana.</p>
+                    <a href="https://antarexid.github.io/Antarex-ID/" target="_blank" class="view-link">Lihat Detail →</a>
+                </div>
+            </div>
+
+            <div class="project-card" data-category="web">
+                <div class="card-image">
+                    <img src="pic/akutansi_sekolah.jpg" alt="Web Akuntansi Sekolah">
+                    <span class="category-tag">Web Akuntansi Sekolah</span>
+                    <div class="image-overlay">
+                        <h3>Sistem Akuntansi Sekolah</h3>
+                    </div>
+                </div>
+                <div class="card-content">
+                    <p>Prototype sistem akuntansi sekolah berbasis web yang memungkinkan pengelolaan data keuangan sekolah.</p>
+                    <a href="https://antarexid.github.io/Sistem-Akutansi-Sekolah/" target="_blank" class="view-link">Lihat Detail →</a>
+                </div>
+            </div>
+
+            <div class="project-card" data-category="uiux">
+                <div class="card-image">
+                    <img src="pic/web_absensi.jpg" alt="web_absensi">
+                    <span class="category-tag">Desain UI/UX</span>
+                    <div class="image-overlay">
+                        <h3>Prototype Web Sistem Rekap Absensi Siswa</h3>
+                    </div>
+                </div>
+                <div class="card-content">
+                    <p>Prototype sistem rekap absensi siswa berbasis web yang memungkinkan pengelolaan data kehadiran siswa.</p>
+                    <a href="https://antarexid.github.io/Sistem-Rekap-Absensi-Siswa/" target="_blank" class="view-link">Lihat Detail →</a>
+            </div>
+        </div>
+
+            <div class="project-card" data-category="lainnya">
+                <div class="card-image">
+                    <img src="pic/web_undangan.jpg" alt="Undangan_Digital">
+                    <span class="category-tag">Lainnya</span>
+                    <div class="image-overlay">
+                        <h3>Undangan Digital</h3>
+                    </div>
+                </div>
+                <div class="card-content">
+                    <p>Undangan digital berbasis web yang memungkinkan pengguna untuk mengirimkan undangan pernikahan secara digital dengan tampilan menarik dan fitur interaktif.</p>
+                    <a href="https://antarexid.github.io/Wedding-Argo-Salsa28/" target="_blank" class="view-link">Lihat Detail →</a>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <script src="proyek.js"></script>
+</body>
+</html>
